@@ -1,0 +1,488 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="overflow-hidden"><head>
+        <meta charset="utf-8" />
+        <meta name="locale" content="en_US" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="yz8Bl3R5PsR7CfnCju_P4jKp7uCRqI5aBkzpbpSsynU" />
+        <meta name="title" content="Where's What » Book &amp; Track Your Company Items" />
+        <meta name="description" content="Where's What helps you be more productive and in control of the company assets you manage. It is the effortless way to book and track devices, tools and more." />
+
+        <!-- Open graph -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Where's What » Book &amp; Track Your Company Items" />
+        <meta property="og:description" content="Where's What helps you be more productive and in control of the company assets you manage. It is the effortless way to book and track devices, tools and more." />
+        <meta property="og:image" content="https://www.whereswhat.com/src/img/promo_image.png" />
+
+        <!-- Dublin Core -->
+        <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+        <meta name="DC.description" content="Where's What helps you be more productive and in control of the company assets you manage. It is the effortless way to book and track devices, tools and more." />
+        <meta name="DC.format" content="text/html" />
+        <meta name="DC.identifier" content="https://www.whereswhat.com" />
+        <meta name="DC.title" content="Where's What » Book &amp; Track Your Company Items" />
+
+        <title>Where's What » Book &amp; Track Your Company Items</title>
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+        <style>.file-input-wrapper { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }.file-input-wrapper input[type=file], .file-input-wrapper input[type=file]:focus, .file-input-wrapper input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }.file-input-name { margin-left: 8px; }</style><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,200,900,600" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link href="//fonts.googleapis.com/css?family=Fira+Sans:300,400,500" rel="stylesheet" type="text/css" />
+        <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+        <!-- Hotjar Tracking Code for https://www.whereswhat.com/ -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://widget.intercom.io/widget/v8jbz1vn"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TT5SLD"></script><script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script><script async="">
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:165648,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script><script async="" src="//static.hotjar.com/c/hotjar-165648.js?sv=5"></script>
+        <script async="">
+        function isLive() {
+            var cHost = window.location.host;
+            return (cHost == "www.whereswhat.com");
+        };
+
+        var appId = isLive() ? "e208u8mh" : "v8jbz1vn";
+
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;
+            s.src='https://widget.intercom.io/widget/'+appId;
+            var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+        <script type="text/javascript" src="https://js.stripe.com/v2/" async=""></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="dist/js/main.js"></script><script async="" src="https://script.hotjar.com/modules-fb023a49161b39880451c2fedbd087e9.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+    <body style="overflow-y: auto; padding-right: 17px;" class="modal-open">
+        <!-- Add the navigation bar -->
+        <div id="navigation-container"></div>
+        <div class="container" id="index-main-container"></div>
+
+        <div class="ww-loading hide">
+            <div class="backdrop"></div>
+            <div class="spinner"></div>
+        </div>
+
+        <script src="dist/js/lib/require.js" data-main="dist/js/main"></script>
+    
+
+<iframe name="stripeXDM_default457491_provider" id="stripeXDM_default457491_provider" aria-hidden="true" src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fwwtest.evozon.com&amp;stripe_xdm_c=default457491&amp;stripe_xdm_p=1#__stripe_transport__" frameborder="0" style="position: absolute; top: -2000px; left: 0px;"></iframe><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;" src="https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html"></iframe><div id="ads"></div><iframe src="https://js.stripe.com/v2/m/outer.html#referrer=https%3A%2F%2Fwwtest.evozon.com%2F&amp;title=Where's%20What%20%C2%BB%20Book%20%26%20Track%20Your%20Company%20Items&amp;url=https%3A%2F%2Fwwtest.evozon.com%2F&amp;muid=bbde366c-8c34-4fc6-9977-e7211241fac5&amp;sid=9795acc9-9945-4c11-bf30-117812c6a985&amp;preview=false&amp;" frameborder="0" allowtransparency="true" scrolling="no" tabindex="-1" aria-hidden="true" style="width: 1px !important; height: 1px !important; position: fixed !important; visibility: hidden !important; pointer-events: none !important;"></iframe><div class="container-fluid no-padding" id="landing-page-a-main-container">
+	<div class="row no-margin" id="custom-navbar-a">
+	<div class="col-xs-12 no-padding custom-navbar-a">
+	<div class="landing-page-container" style="width: 1355px;">
+		<div class="col-xs-2 no-padding">
+			<a href="#" class="logo-container">
+				<img class="navbar-a-logo scroll-through-page" data-frame="0" src="src/img/big-logo.png" alt="Where's What" />
+			</a>
+		</div>
+		<div class="col-xs-6 col-xs-offset-4">
+			<div class="group-login-a text-right">
+				<button class="sign-up-for-free landing-button-green landing-navbar-button">FREE SIGN UP</button>
+				<span class="sign-in-a">LOGIN</span>
+			</div>
+		</div>
+	</div>
+</div></div>
+	<div class="row no-margin" id="landing-home" style="height: 830px;">
+	<div class="row no-margin">
+	<div class="landing-page-container text-center" id="assets-container" style="width: 1355px;">
+
+	<img src="src/img/landingPageA/asset_1.png" alt="Asset" class="landing-asset" data-id="1" data-column="0" data-column-from-top="0" data-vertical-order="0" style="transition: all 0.77s ease 0s; width: 130.8px; top: 573.545px; left: 130.8px;" /><img src="src/img/landingPageA/asset_2.png" alt="Asset" class="landing-asset" data-id="2" data-column="0" data-column-from-top="1" data-vertical-order="2" style="transition: all 0.94s ease 0s; width: 130.8px; top: 573.545px; left: 261.6px;" /><img src="src/img/landingPageA/asset_3.png" alt="Asset" class="landing-asset" data-id="3" data-column="0" data-column-from-top="2" data-vertical-order="4" style="transition: all 1.11s ease 0s; width: 130.8px; top: 573.545px; left: 392.4px;" /><img src="src/img/landingPageA/asset_4.png" alt="Asset" class="landing-asset" data-id="4" data-column="0" data-column-from-top="3" data-vertical-order="6" style="transition: all 1.28s ease 0s; width: 130.8px; top: 573.545px; left: 523.2px;" /><img src="src/img/landingPageA/asset_5.png" alt="Asset" class="landing-asset" data-id="5" data-column="1" data-column-from-top="0" data-vertical-order="1" style="transition: all 1.45s ease 0s; width: 130.8px; top: 573.545px; left: 654px;" /><img src="src/img/landingPageA/asset_6.png" alt="Asset" class="landing-asset" data-id="6" data-column="1" data-column-from-top="1" data-vertical-order="3" style="transition: all 1.62s ease 0s; width: 130.8px; top: 573.545px; left: 784.8px;" /><img src="src/img/landingPageA/asset_7.png" alt="Asset" class="landing-asset" data-id="7" data-column="1" data-column-from-top="2" data-vertical-order="5" style="transition: all 1.79s ease 0s; width: 130.8px; top: 573.545px; left: 915.6px;" /><img src="src/img/landingPageA/asset_8.png" alt="Asset" class="landing-asset" data-id="8" data-column="1" data-column-from-top="3" data-vertical-order="7" style="transition: all 1.96s ease 0s; width: 130.8px; top: 573.545px; left: 1046.4px;" /></div>
+	<div class="center-container" style="margin-top: 33.3333px;">
+		<div class="landing-page-container text-center" style="width: 1355px;">
+			<h2 class="landing-text-large landing-text-gray" style="font-size: 46px;">THE APP THAT <br />
+			<span class="landing-text-blue">TRACKS </span><span class="landing-text-green">ASSETS </span>FOR YOU
+			</h2>
+		</div>
+		<div class="landing-page-container text-center" style="width: 1355px;">
+			<ul class="landing-feature-text landing-text-gray list-features" style="font-size: 18px;">
+				<li><img src="src/img/landingPageA/check.png" class="check-img" style="width: 20px;" /> Lets team members easily find and book items</li>
+				<li><img src="src/img/landingPageA/check.png" class="check-img" style="width: 20px;" /> Keeps track of everything</li>
+				<li><img src="src/img/landingPageA/check.png" class="check-img" style="width: 20px;" /> Sends reminders</li>
+			</ul>
+		</div>
+		<div class="landing-page-container margin-top-separator text-center" style="margin-top: 37px; width: 1355px;">
+			<button class="sign-up-for-free landing-button-blue">GET STARTED FOR FREE</button>
+		</div>
+	</div>
+</div>
+<div class="row no-margin home-bottom gradient-light" style="height: 186px;">
+</div>
+
+</div>
+	<div class="row no-margin" id="landing-why-us" style="height: 830px;">
+	<div>
+    <div class="landing-page-container laptop-container" style="width: 1355px;">
+        <img class="landing-laptop" src="src/img/landingPageA/laptop.png" alt="Laptop" style="height: 542px; margin-top: 53px;" />
+    </div>
+</div>
+<div class="row no-margin why-us-bottom gradient-dark" style="height: 467px;">
+</div></div>
+	<div class="row no-margin" id="landing-features">
+	<div class="row no-margin">
+	<div class="landing-page-container landing-features" style="width: 1355px;">
+		<div class="col-xs-12 no-padding" style="position: relative">
+			<div class="col-xs-6">
+				<div class="feature-image-container">
+					<img src="src/img/landingPageA/admin_supervision.jpg" />
+					<img class="cover-image" id="cover1" src="src/img/landingPageA/admin_supervision_cover.png" style="width: 0px; top: 55%; left: 53%;" />
+				</div>
+			</div>
+			<div class="col-xs-6 text-right features-text-container right">
+				<h2 class="new-feature-heading">Save valuable time</h2>
+				<span class="new-feature-text">• Find out fast where’s what with <b>availability calendars</b></span><br />
+				<span class="new-feature-text">• <b>Supervise</b> just the company items you need to</span><br />
+				<span class="new-feature-text">• Ensure timely returns with <b>automated reminders</b></span>
+			</div>
+		</div>
+		<div class="col-xs-12 margin-top-separator no-padding" style="position: relative; margin-top: 37px;">
+			<div class="col-xs-6 text-left features-text-container">
+				<h2 class="new-feature-heading">Effortlessly manage everything online</h2>
+				<span class="new-feature-text">• Have all company <b>items and users</b> in one account</span><br />
+				<span class="new-feature-text">• Give users access to <b>search and book</b> items they need</span><br />
+				<span class="new-feature-text">•  Protect your information in a <b>secure app</b> (SSL encrypted)</span>
+			</div>
+			<div class="col-xs-6">
+				<div class="feature-image-container right">
+					<img src="src/img/landingPageA/all_bookings.jpg" />
+					<img class="cover-image" id="cover2" src="src/img/landingPageA/all_bookings_cover.png" style="width: 0px; top: 45%; left: 35%;" />
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 margin-top-separator no-padding" style="position: relative; margin-top: 37px;">
+			<div class="col-xs-6">
+				<div class="feature-image-container">
+					<img src="src/img/landingPageA/book_button.jpg" />
+					<img class="cover-image" id="cover3" src="src/img/landingPageA/book_button_cover.png" style="width: 0px; top: 30%; left: 35%;" />
+				</div>
+			</div>
+			<div class="col-xs-6 text-right features-text-container right">
+				<h2 class="new-feature-heading">Easy to use<br /> by anyone</h2>
+				<span class="new-feature-text">• <b>Real-time database updates</b> prevent conflicting bookings</span><br />
+				<span class="new-feature-text">• <b>Intuitive design</b> adaptable to any device<br />
+				<span class="new-feature-text">•  No download or training needed</span>
+			</span></div>
+		</div>
+		<div class="col-xs-12 margin-top-separator" style="margin-top: 37px;"> </div>
+		<!-- <h2 class="landing-features-title-large text-center landing-text-white">
+			5 Reasons why Where's What is a match for your company
+		</h2>
+		<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="reason">
+				<img src="src/img/landingPageA/icons_lpa/organize.png"
+					class="landing-feature-icon" />
+				<h3 class="landing-features-title-medium landing-text-white">
+					Organize all your assets online
+				</h3>
+				<p class="landing-features-text landing-text-white">
+					Enable employees to search and book the items they need
+				</p>
+			</div>
+			<div class="reason">
+				<img src="src/img/landingPageA/icons_lpa/maximize.png"
+					class="landing-feature-icon" />
+				<h3 class="landing-features-title-medium landing-text-white">
+					Maximize workplace productivity
+				</h3>
+				<p class="landing-features-text landing-text-white">
+					Eliminate conflicting bookings and requests for unavailable items
+				</p>
+			</div>
+			<div class="reason">
+				<img src="src/img/landingPageA/icons_lpa/time.png"
+					class="landing-feature-icon" />
+				<h3 class="landing-features-title-medium landing-text-white top-separator-features">
+					Get back your time
+				</h3>
+				<p class="landing-features-text landing-text-white">
+					Make sure items are returned with automated reminders
+				</p>
+			</div>
+			<div class="reason">
+				<img src="src/img/landingPageA/icons_lpa/supervise.png"
+					class="landing-feature-icon" />
+				<h3 class="landing-features-title-medium landing-text-white">
+					Supervise usage
+				</h3>
+				<p class="landing-features-text landing-text-white">
+					Manage the usage of valuable assets with admin approval
+				</p>
+			</div>
+			<div class="reason">
+				<img src="src/img/landingPageA/icons_lpa/never_lose.png"
+					class="landing-feature-icon" />
+				<h3 class="landing-features-title-medium landing-text-white">
+					Never lose anything again
+				</h3>
+				<p class="landing-features-text landing-text-white">
+					With bookings, tracking items is a no brainer
+				</p>
+			</div>
+
+		</div> -->
+
+	</div>
+</div>
+
+
+</div>
+	<div class="row no-margin" id="landing-benefits">
+	</div>
+<div class="default-modal-a modal terms-conditions-a-modal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         	<div class="modal-header gradient-light">
+                <div class="single-header set-up-text-header" style="font-size: 24px;">TERMS
+            </div>
+       	</div>
+        <div class="modal-body modal-container">
+            <div class="terms-conditions-a-content"><div class="privacy-policy" style="font-size: 24px; height: 700px;">
+    <h1>Where's What Terms of Service</h1>
+    <p class="small-text">Updated and effective as of 26 October 2015.</p>
+    <p>
+    	By using the Where’s What ("Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service"). Evo Automation ("Company") reserves the right to update and change these Terms of Service without notice. Violation of any of the terms below may result in the termination of your account.
+	</p>
+    <h3 class="text-policy">Account Terms</h3>
+    <ul>
+    	<li>
+    		During your and any invited users’ (including any employees, contractors, agents or invited participants) use of the Service, you will be responsible for any and all activities that occur while using the Service.
+		</li>
+		<li>
+			The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
+		</li>
+		<li>
+			You may not use the Service for any illegal purpose or to violate any laws in your jurisdiction (including but not limited to copyright laws).
+		</li>
+		<li>
+			You must provide your legal full name, a valid email address, and any other information requested in order to complete the signup process.
+		</li>
+		<li>
+			Your login may only be used by one person – a single login shared by multiple people is not permitted. You may create separate logins for as many people as you'd like.
+		</li>
+		<li>
+			You must be a human. Accounts registered by “bots” or other automated methods are not permitted.
+		</li>
+    </ul>
+    <h3 class="text-policy">Copyright and Content Ownership</h3>
+    <ul>
+    	<li>
+    		All content posted on the Service must comply with copyright law.
+    	</li>
+    	<li>
+    		We claim no intellectual property rights over the material you provide to the Service. All materials uploaded remain yours.
+    	</li>
+    	<li>
+    		The Company does not pre-screen content, but reserves the right (but not the obligation) in their sole discretion to refuse or remove any content that is available via the Service.
+    	</li>
+    	<li>
+    		The look and feel of the Service is copyright© Evo Automation. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company.
+    	</li>
+    </ul>
+	<h3 class="text-policy">Fees and Payment</h3>
+	<ul>
+		<li>
+			Fees applicable to the Service (“Fees”) are published within the Service or on the website associated with the Service. Evo Automation reserves the right to change the Fees at any time upon thirty (30) days’ prior notice to you (which may be sent by email to the address you have most recently provided to us or posted to the Where’s What website or the Service itself.  Payment for Service will be by authorized credit card and will be processed through the Braintree service. Evo Automation reserves the right to suspend or terminate your access to the Services for failure to timely pay any undisputed amounts for the Services as billed to your credit card.
+		</li>
+	</ul>
+	<h3 class="text-policy">Consent to Use of Analytics</h3>
+	<ul>
+		<li>
+			You agree that Evo Automation may collect and use technical data, usage and quality statistics and related information (collectively “Analytics”) that are gathered periodically to facilitate the provision of updates, support and other services to you related to the Services. Evo Automation and its third party providers may monitor, use and store use Analytics to improve the Services.
+		</li>
+
+	</ul>
+	<h3 class="text-policy">Feedback</h3>
+	<ul>
+		<li>
+			While using the Services, you may be asked to provide feedback regarding your use of the Services and will receive communication and correspondence from Evo Automation regarding the Services. If you request to opt out from such communications or do not provide feedback as requested regarding your use of the Services, your use of the Services may be cancelled. You agree that you will not be entitled to any compensation or reimbursement from Evo Automation in connection with any feedback, and you hereby assign to Evo Automation all right, title and interest in and to any feedback, comments and suggestions that you provide and agree that Evo Automation may incorporate such feedback into the Services or any other Evo Automation product or service at any time at the sole discretion of Evo Automation. Feedback may include the ability to track your use of the Services through analytic tools. All such collection and use will be in accordance with the applicable Evo Automation Privacy Policy.
+		</li>
+
+	</ul>
+	<h3 class="text-policy">Modification and Termination</h3>
+	<ul>
+		<li>
+			You may discontinue your use of the Services at any time by submitting written notice of termination to support@whereswhat.com ; however if you terminate your use of the Services, you will not receive a refund of any portion of the Fees you have paid to Evo Automation.
+		</li>
+
+	</ul>
+	<h3 class="text-policy">General Conditions</h3>
+	<ul>
+		<li>
+			Your use of the Service is at your sole risk. The service is provided on an “as is” and “as available” basis.
+		</li>
+		<li>
+			You understand that the Company uses third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service.
+		</li>
+		<li>You must not modify, adapt or hack the Service. </li>
+		<li>
+			You must not modify another website so as to falsely imply that it is associated with the Service or the Company.
+		</li>
+		<li>
+			You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without the express written permission by the Company.
+		</li>
+		<li>
+			We may, but have no obligation to, remove content and accounts that we determine in our sole discretion are unlawful or violates any party’s intellectual property or these Terms of Service.
+		</li>
+		<li>
+			Verbal, physical, written or other abuse (including threats of abuse or retribution) of any Service customer, Company employee or officer will result in immediate account termination.
+		</li>
+		<li>
+			You understand that the technical processing and transmission of the Service, including your content, may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices.
+		</li>
+		<li>
+			We reserve the right to temporarily disable your account if your usage significantly exceeds the average usage of other Service customers. Of course, we'll reach out to the account owner before taking any action except in rare cases where the level of use may negatively impact the performance of the Service for other customers.
+		</li>
+		<li>
+			The Company does not warrant that (i) the service will meet your specific requirements, (ii) the service will be uninterrupted, timely, secure, or error-free, (iii) the results that may be obtained from the use of the service will be accurate or reliable, (iv) the quality of any products, services, information, or other material purchased or obtained by you through the service will meet your expectations, and (v) any errors in the Service will be corrected.
+		</li>
+		<li>
+			You expressly understand and agree that the Company shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if the Company has been advised of the possibility of such damages), resulting from: (i) the use or the inability to use the service; (ii) the cost of procurement of substitute goods and services resulting from any goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the service; (iii) unauthorized access to or alteration of your transmissions or data; (iv) statements or conduct of any third party on the service; (v) or any other matter relating to the service.
+		</li>
+		<li>
+			The failure of the Company to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision. The Terms of Service and Privacy Policy constitutes the entire agreement between you and the Company and govern your use of the Service, superseding any prior agreements between you and the Company (including, but not limited to, any prior versions of the Terms of Service).
+		</li>
+		<li>
+			Questions about the Terms of Service should be sent to support@whereswhat.com .
+		</li>
+
+	</ul>
+</div>
+</div>
+        </div>
+        <div class="default-modal-footer">
+        <div>
+    </div>
+    <div class="back-button default-modal-footer custom-modal-footer">
+        <button class="btn-back" type="button" data-dismiss="modal" style="font-size: 24px;">Back
+        </button>
+    </div>
+</div>
+</div></div></div><div class="default-modal-a modal privacy-policy-a-modal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         	<div class="modal-header gradient-light">
+                <div class="single-header set-up-text-header" style="font-size: 24px;">PRIVACY
+            </div>
+       	</div>
+        <div class="modal-body modal-container">
+            <div class="privacy-policy-a-content"><div class="privacy-policy" style="font-size: 24px; height: 700px;">
+    <h1>Where's What Privacy Policy</h1>
+    <p class="small-text">Updated and effective as of 26th October 2015.</p>
+    <p>
+        Evo Automation owns and provides various websites (the "<strong>Websites</strong>"), services, and software (such as www.whereswhat.com) that facilitate company asset management, booking and tracking (collectively, the "<strong>Services</strong>"). In this Privacy Policy, we may refer to Evo Automation as "<strong>us</strong>", or "<strong>we</strong>". "<strong>User</strong>" refers to any individual or organization using the Services.
+    </p>
+    <p>
+        Your privacy is critically important to us. At Evo Automation we have a few fundamental principles:
+        </p><ul>
+            <li>We don’t ask you for personal information unless we truly need it.
+            </li>
+            <li>We don’t share your personal information with anyone except to comply with the law, develop our product, or protect our rights.</li>
+            <li>We don’t store personal information on our servers unless required for the on-going operation of one of our services.</li>
+            <li>In our products, we aim to make it as simple as possible for you to control what’s visible to the public, seen by search engines, kept private, and permanently deleted.</li>
+        </ul>
+    <p></p>
+    <p>
+        The following Privacy Policy outlines how Evo Automation will treat information as you use the Services. By using the services, you accept the terms set forth in this privacy policy and in our Terms of use.
+    </p>
+    <p>
+        If you have questions about deleting or correcting your personal data please contact our support team using the online chat available on the website and in the app or via email at support@whereswhat.com .
+    </p>
+    <h3 class="text-policy">Website Visitors</h3>
+    <p>
+        Like most website operators, Evo Automation collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Evo Automation’s purpose in collecting non-personally identifying information is to better understand how Evo Automation’s visitors use its website. From time to time, Evo Automation may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+    </p>
+
+    <h3 class="text-policy">Gathering of Personally-Identifying Information</h3>
+    <p>
+        Certain visitors to Evo Automation’s websites choose to interact with Evo Automation in ways that require Evo Automation to gather personally-identifying information. The amount and type of information that Evo Automation gathers depends on the nature of the interaction. For example, we ask visitors who sign up for an account at Evo Automation to provide an email address. Those who engage in transactions with Evo Automation – by purchasing access to the premium features – are asked to provide additional information, including as necessary the personal and financial information required to process those transactions. In each case, Evo Automation collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Evo Automation. Evo Automation does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.
+    </p>
+
+    <h3 class="text-policy">Aggregated Statistics</h3>
+    <p>
+        Evo Automation may collect statistics about the behavior of visitors to its websites. Evo Automation may display this information publicly or provide it to others. However, Evo Automation does not disclose personally-identifying information other than as described below.
+    </p>
+
+    <h3 class="text-policy">Protection of Certain Personally-Identifying Information</h3>
+    <p>
+        Evo Automation discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors and affiliated organizations that (i) need to know that information in order to process it on Evo Automation’s behalf or to provide services available at Evo Automation’s websites, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organizations may be located outside of your home country; by using Evo Automation’s websites, you consent to the transfer of such information to them. Evo Automation will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors and affiliated organizations, as described above, Evo Automation discloses potentially personally-identifying and personally-identifying information only in response to a subpoena, court order or other governmental request, or when Evo Automation believes in good faith that disclosure is reasonably necessary to protect the property or rights of Evo Automation, third parties or the public at large. If you are a registered user of a Evo Automation website and have supplied your email address, Evo Automation may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with Evo Automation and our products. We primarily use our various product blogs to communicate this type of information, so we expect to keep this type of email to a minimum. If you send us a request (for example via a support email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Evo Automation takes all measures reasonably necessary to protect against the unauthorized access, use, alteration or destruction of potentially personally-identifying and personally-identifying information.
+    </p>
+
+    <h3 class="text-policy">Child Protection</h3>
+    <p>
+        We do not offer services to, or target, persons under the age of 13. In compliance with the Children's Online Privacy Protection Act, we will purge any information we receive from people we believe to be children under 13 from our database and cancel the corresponding accounts.
+    </p>
+    <h3 class="text-policy">Cookies</h3>
+    <p>
+        A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Evo Automation uses cookies to help Evo Automation identify and track visitors, their usage of Evo Automation website, and their website access preferences. Evo Automation visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using Evo Automation’s websites, with the drawback that certain features of Evo Automation’s websites may not function properly without the aid of cookies.
+    </p>
+
+    <h3 class="text-policy">Business Transfers</h3>
+    <p>
+        If Evo Automation, or substantially all of its assets were acquired, or in the unlikely event that Evo Automation goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of Evo Automation may continue to use your personal information as set forth in this policy.
+    </p>
+
+    <h3 class="text-policy">Ads</h3>
+    <p>
+        Ads appearing on any of our websites may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Evo Automation and does not cover the use of cookies by any advertisers.
+    </p>
+
+    <h3 class="text-policy">Privacy Policy Changes</h3>
+    <p>
+        Although most changes are likely to be minor, Evo Automation may change its Privacy Policy from time to time, and in Evo Automation’s sole discretion. Evo Automation encourages visitors and users to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
+    </p>
+</div>
+
+
+
+
+
+
+</div>
+        </div>
+        <div class="default-modal-footer">
+        <div>
+    </div>
+    <div class="back-button default-modal-footer custom-modal-footer">
+        <button class="btn-back" type="button" data-dismiss="modal" style="font-size: 24px;">Back
+        </button>
+    </div>
+</div>
+</div></div></div><div class="sign-up-modal modal in" tabindex="-1" style="display: block; padding-right: 17px;">
+    <div class="modal-dialog modal-md ">
+        <div class="modal-content">
+            <div class="modal-header gradient-light" id="modal-sign-up"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+    <div class="single-header set-up-text-header">LOGIN
+    </div>
+</div>
+            <div class="modal-body modal-container">
+                <div class="form-set-up">
+                <form id="sign_in_form" class="sign-in-now form-horizontal bv-form" novalidate="novalidate"><button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+    <div class="user-data-form has-feedback">
+        <div class="cont-margine">
+            <div class="form-group has-feedback">
+                <div class="col-xs-12">
+                    <input id="email" class="form-control margin-input set-up-text-input email" name="email" type="text" placeholder="Email Address" data-bv-field="email" style="font-size: 20px; height: 44px;" /><i class="form-control-feedback" data-bv-icon-for="email" style="display: none; top: 0px;"></i>
+                <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Email is a required field</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Insert a valid email address</small></div>
+            </div>
+            <div class="form-group has-feedback">
+                <div class="col-xs-12">
+                    <input id="pass" class="form-control margin-input set-up-text-input password" name="pass" type="password" placeholder="Password" data-bv-field="pass" style="font-size: 20px; height: 44px;" /><i class="form-control-feedback" data-bv-icon-for="pass" style="display: none; top: 0px;"></i>
+                <small class="help-block" data-bv-validator="notEmpty" data-bv-for="pass" data-bv-result="NOT_VALIDATED" style="display: none;">Password is a required field</small></div>
+            </div>
+            <div class="form-group">
+                <input class="signin btn btn-next pull-left col-xs-4 col-xs-offset-4" type="submit" value="Sign In" style="font-size: 24px;" />
+            </div>
+            <div class="bottom col-md-12 text-center">
+                <span class="forgot clickable-text">Forgot your password?</span>
+            </div>
+        </div>
+    </div>
+</form></div>
+            </div>
+            <div class="modal-footer default-modal-footer sign-up-now-footer text-center">
+            <div>
+        </div>
+    </div>
+</div></div></div></div><ul id="noty_topLeft_layout_container" class="i-am-new" style="top: 72px; left: 20px; position: fixed; width: 310px; height: auto; margin: 0px; padding: 0px; list-style-type: none; z-index: 10000000;"><li class="animated bounceInLeft" style="overflow: hidden; margin: 4px 0px; border-radius: 2px; border: 1px solid rgb(226, 83, 83); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; background-color: rgb(255, 129, 129); color: rgb(255, 255, 255); width: 310px; cursor: pointer; height: 36px;"><div class="noty_bar noty_type_error" id="noty_693519995406722700"><div class="noty_message noty_type_success" style="font-size: 13px; line-height: 16px; text-align: left; padding: 10px; width: auto; position: relative; font-weight: bold;"><span class="noty_text">Setting could not be found.</span></div></div></li></ul><iframe id="intercom-frame" style="display: none;"></iframe><div id="intercom-container" style="position: fixed; width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;"><!-- react-empty: 1 --></div><div class="modal-backdrop in"></div></body></html>
